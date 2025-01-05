@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Youtube NoAds</title>
+  <style>
+    body {
+      width: 250px;
+      padding: 20px;
+      font-family: 'Arial', sans-serif;
+      background-color: #033e75;
+      margin: 0;
+    }
+    .container {
+      background-color: #00d9ff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 15px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: 17px;
+      color: #fff;
+      background-color: #5318f5;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .footer {
+      font-size: 12px;
+      color: #888;
+      margin-top: 15px;
+    }
+    #updateNotification {
+      display: none;
+      background-color: #ffeb3b;
+      color: #333;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 15px;
+    }
+    #updateNotification a {
+      color: #2196f3;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    #updateNotification a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Youtube NoAds</h1>
+    <button id="redirectButton">Enter Video</button>
+    <div id="updateNotification"></div>
+    <div class="footer">Dev by SrymC</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
